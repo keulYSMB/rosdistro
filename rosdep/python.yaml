@@ -5157,12 +5157,18 @@ python3-catkin-pkg:
   debian: [python3-catkin-pkg]
   fedora: [python3-catkin_pkg]
   gentoo: [dev-python/catkin_pkg]
+  osx:
+    pip:
+      packages: [catkin-pkg]
   ubuntu: [python3-catkin-pkg]
 python3-catkin-pkg-modules:
   debian: [python3-catkin-pkg-modules]
   fedora: [python3-catkin_pkg]
   gentoo: [dev-python/catkin_pkg]
   openembedded: [python3-catkin-pkg@meta-ros]
+  osx:
+    pip:
+      packages: [catkin-pkg]
   rhel: ['python%{python3_pkgversion}-catkin_pkg']
   ubuntu: [python3-catkin-pkg-modules]
 python3-collada-pip:
@@ -5236,6 +5242,9 @@ python3-empy:
   fedora: [python3-empy]
   gentoo: [dev-python/empy]
   openembedded: [python3-empy@meta-ros]
+  osx:
+    pip:
+      packages: [empy]
   rhel: ['python%{python3_pkgversion}-empy']
   ubuntu: [python3-empy]
 python3-flake8:
@@ -5246,6 +5255,9 @@ python3-flake8:
   fedora: [python3-flake8]
   gentoo: [dev-python/flake8]
   openembedded: [python3-flake8@meta-ros]
+  osx:
+    pip:
+      packages: [flake8]
   rhel:
     '*': ['python%{python3_pkgversion}-flake8']
     '7': null
@@ -5353,6 +5365,9 @@ python3-mock:
   fedora: [python3-mock]
   gentoo: [dev-python/mock]
   openembedded: [python3-mock@meta-ros]
+  osx:
+    pip:
+      packages: [mock]
   rhel: ['python%{python3_pkgversion}-mock']
   ubuntu: [python3-mock]
 python3-mypy:
@@ -5552,6 +5567,9 @@ python3-pytest:
   fedora: [python3-pytest]
   gentoo: [dev-python/pytest]
   openembedded: [python3-pytest@meta-python]
+  osx:
+    pip:
+      packages: [pytest]
   rhel: ['python%{python3_pkgversion}-pytest']
   ubuntu: [python3-pytest]
 python3-pytest-mock:
@@ -5560,6 +5578,9 @@ python3-pytest-mock:
   debian: [python3-pytest-mock]
   fedora: [python3-pytest-mock]
   gentoo: [dev-python/pytest-mock]
+  osx:
+    pip:
+      packages: [pytest-mock]
   rhel:
     '*': ['python%{python3_pkgversion}-pytest-mock']
     '7': null

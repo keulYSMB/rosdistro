@@ -58,6 +58,10 @@ cppad:
   osx:
     homebrew:
       packages: [cppad]
+cppcheck:
+  osx:
+    homebrew:
+      packages: [cppcheck]
 cppunit:
   osx:
     homebrew:
@@ -655,6 +659,10 @@ tinyxml2:
   osx:
     homebrew:
       packages: [tinyxml2]
+uncrustify:
+  osx:
+    homebrew:
+      packages: [uncrustify]
 unzip:
   osx:
     homebrew:
